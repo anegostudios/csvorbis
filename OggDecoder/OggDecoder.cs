@@ -1,7 +1,27 @@
+/* OggDecoder
+ * Copyright (C) 2002 Mark Crichton <crichton@gimp.org>
+ *
+ * Written by: Mark Crichton <crichton@gimp.org>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Library General Public License
+ * as published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Library General Public License for more details.
+ *
+ * You should have received a copy of the GNU Library General Public
+ * License along with this program; if not, write to the Free Software
+ * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ *
+ * 9 January 2024 - Modified by Manuel Dielacher.
+ */
+
 using System;
 using System.IO;
-using csogg;
-using csvorbis;
 
 namespace OggDecoder
 {
@@ -13,28 +33,9 @@ namespace OggDecoder
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>
-		//[STAThread]
-		static void Main(string[] args) 
+		static void Decode(FileStream input, FileStream output) 
 		{
 			TextWriter s_err = Console.Error;
-			FileStream input = null, output = null;
-			
-			if(args.Length == 2)
-			{
-				try
-				{
-					input = new FileStream(args[0], FileMode.Open, FileAccess.Read);
-					output = new FileStream(args[1], FileMode.OpenOrCreate);
-				}
-				catch(Exception e)
-				{
-					s_err.WriteLine(e);
-				}
-			} 
-			else 
-			{
-				return;
-			}
 
 			OggDecodeStream decode = new OggDecodeStream(input, true);
 

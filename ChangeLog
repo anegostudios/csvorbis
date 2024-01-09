@@ -1,3 +1,38 @@
+2024-01-09 Manuel Dielacher <th3dilli@gmx.at> and radfast 
+    * new file:   .idea/.idea.csvorbis/.idea/.gitignore
+      new file:   .idea/.idea.csvorbis/.idea/encodings.xml
+      new file:   .idea/.idea.csvorbis/.idea/indexLayout.xml
+      new file:   .idea/.idea.csvorbis/.idea/vcs.xml
+      deleted:    OggDecoder/AssemblyInfo.cs
+      modified:   README
+      deleted:    csogg/AssemblyInfo.cs
+      deleted:    csogg/Makefile
+      deleted:    csogg/csogg.csproj.user
+      deleted:    csvorbis/AssemblyInfo.cs
+      deleted:    csvorbis/Makefile
+      deleted:    csvorbis/csvorbis.csproj.user
+      deleted:    .cvsignore
+      modified:   ChangeLog
+      deleted:    Makefile
+      deleted:    OggDecoder/App.ico
+      deleted:    OggDecoder/Makefile
+      modified:   OggDecoder/OggDecodeStream.cs
+      modified:   OggDecoder/OggDecoder.cs
+      modified:   OggDecoder/OggDecoder.csproj
+      deleted:    OggDecoder/OggDecoder.csproj.user
+      deleted:    OggDecoder/OggPlayer.cs
+      modified:   README
+      modified:   csogg/Page.cs
+      modified:   csogg/csogg.csproj
+      modified:   csvorbis.sln
+      deleted:    csvorbis.suo
+      modified:   csvorbis/csvorbis.csproj
+
+      Updated project to SDK Style Project and Target .NET 7.0 / .NET 8.0
+      Changed csogg, csvorbis, OggDecoder to Library projects 
+      Made Page.cs ThreadStatic (radfast)
+      Removed OggPlayer from OggDecoder
+
 2009-03-23  Atsushi Enomoto  <atsushi@ximian.com>
 
 	* Makefile,

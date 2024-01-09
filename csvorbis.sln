@@ -1,31 +1,34 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csogg", "csogg\csogg.csproj", "{FA4ACE8B-CDEE-41A3-92D7-C73069B84B83}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csogg", "csogg\csogg.csproj", "{A816DB25-6EFA-4E41-B067-1A88D2F602B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvorbis", "csvorbis\csvorbis.csproj", "{0087C0AF-E896-4C55-A999-5245560BCBE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvorbis", "csvorbis\csvorbis.csproj", "{5044E5D2-8149-4331-B3CC-D969A52E8F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OggDecoder", "OggDecoder\OggDecoder.csproj", "{4CA9EB23-E111-4DAD-9932-F73E8E6C54C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OggDecoder", "OggDecoder\OggDecoder.csproj", "{FA9FC462-6099-47E0-94E0-81B8F46614F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA4ACE8B-CDEE-41A3-92D7-C73069B84B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA4ACE8B-CDEE-41A3-92D7-C73069B84B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA4ACE8B-CDEE-41A3-92D7-C73069B84B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA4ACE8B-CDEE-41A3-92D7-C73069B84B83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0087C0AF-E896-4C55-A999-5245560BCBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0087C0AF-E896-4C55-A999-5245560BCBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0087C0AF-E896-4C55-A999-5245560BCBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0087C0AF-E896-4C55-A999-5245560BCBE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4CA9EB23-E111-4DAD-9932-F73E8E6C54C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4CA9EB23-E111-4DAD-9932-F73E8E6C54C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4CA9EB23-E111-4DAD-9932-F73E8E6C54C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4CA9EB23-E111-4DAD-9932-F73E8E6C54C5}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A816DB25-6EFA-4E41-B067-1A88D2F602B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A816DB25-6EFA-4E41-B067-1A88D2F602B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A816DB25-6EFA-4E41-B067-1A88D2F602B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A816DB25-6EFA-4E41-B067-1A88D2F602B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5044E5D2-8149-4331-B3CC-D969A52E8F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5044E5D2-8149-4331-B3CC-D969A52E8F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5044E5D2-8149-4331-B3CC-D969A52E8F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5044E5D2-8149-4331-B3CC-D969A52E8F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9FC462-6099-47E0-94E0-81B8F46614F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9FC462-6099-47E0-94E0-81B8F46614F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9FC462-6099-47E0-94E0-81B8F46614F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9FC462-6099-47E0-94E0-81B8F46614F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
