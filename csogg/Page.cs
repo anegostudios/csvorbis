@@ -34,7 +34,7 @@ namespace csogg
 	public class Page	
 	{
 		[ThreadStatic]
-		private static uint[] crc_lookup = new uint[256];
+		private static uint[] crc_lookup;
 		
 		private static uint crc_entry(uint index)
 		{
